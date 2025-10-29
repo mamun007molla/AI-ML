@@ -771,7 +771,7 @@ A = [20, 25, 30, 35, 40, 45, 50, 55]
 B = [30, 35, 40, 45, 50, 55, 60, 70]
 C = [10, 15, 20, 25, 30, 40, 50, 60]
 
-plt.boxplot([A, B, C], labels=['Set A', 'Set B', 'Set C'])
+plt.boxplot([A, B, C], tick_labels=['Set A', 'Set B', 'Set C'])
 plt.title("Multiple Data Comparison")
 plt.ylabel("Values")
 plt.show()
